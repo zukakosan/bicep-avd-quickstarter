@@ -1,6 +1,12 @@
 using '../main.bicep'
 
-param location = 'japaneast'
+param location = 'eastus2euap'
 param suffix = 'zukako'
 param vmAdminUsername = 'AzureAdmin'
 param vmAdminPassword = '#Password1234!'
+//param addsAdminName = 'AzureAdmin'
+param addsAdminName = 'adadmin@kedama.local'
+param addsAdminPassword = '#Password1234!'
+param tenantId = 'ec568c69-965a-495b-8823-a7f3c2dc890f'
+//param objectId = '187cd1e5-91be-4fd5-98db-8eea62f64221'
+param objectId = 'd9f4da10-469f-47ac-8618-08c21c4164d5'

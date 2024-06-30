@@ -14,7 +14,7 @@ var hubVnetSubnets = [
   'subnet-yyy'
 ]
 var shVnetSubnets = [
-  'subnet-adds'
+  'subnet-sessionhost'
   'subnet-xxx'
   'subnet-yyy'
 ]
